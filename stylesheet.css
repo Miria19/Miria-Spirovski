@@ -1,0 +1,102 @@
+body, html {
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(111,105,105);
+    text-align: center;
+}
+#background-image {
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    
+}
+
+nav {
+    display: block;
+    position: fixed;
+    top:0;
+    left: 0;
+    font-size: 25px;
+    background-color: transparent;
+    padding: 20px;
+    font-family: Abel;  
+    transition: top 0.3s;
+}
+
+nav a {
+    padding: 17px;
+}
+
+h1, h2 ,h3 {
+    font-family: Pacifico;
+
+}
+
+#name-topright {
+    top: 0;
+    right: 8px;
+    z-index: 2;
+    font-family: Pacifico;
+    font-size: 40px;
+    position: absolute;
+}
+
+li {
+    list-style-type: none;
+}
+
+#contact {
+    display: box-sizing;
+    background-color: rgba(226,75,226,0.5);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+  }
+ 
+  a {
+  text-decoration: none;
+  }
+  a:hover {color: rgb(226, 75, 226);}
+  
+
+  .project-tile{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  #box1, #box2, #box3 {
+    background-color: white;
+    border: 16px solid rgba(226,75,226,0.5);
+    height: 400px;
+    width: 460px;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 22px;
+    margin-bottom: 40px
+  }
+
+  #footericons {font-size: 28px;
+    padding: 10px;
+  }
+  
+  img {width: 300px; height: 200px;}
+  
+  @media screen and (max-width: 800px) {.project-tile 
+    {display: grid; grid-template-column: repeat(auto-fill, minmax(300px, 700px)) }}
+  
+  @media screen and (max-width: 800px) 
+  {#box1, #box2, #box3, {width: 100%; justify-content: center; border: white;}}
+
+  @media screen and (max-width: 800px)
+{img{width:100%;}}
+
+#about, #projects, { 
+    margin-top:70px;
+}
