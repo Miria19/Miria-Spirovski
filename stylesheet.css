@@ -65,6 +65,7 @@ li {
 
   .project-tile{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center; 
   }
@@ -88,9 +89,10 @@ li {
   
   img {width: 300px; height: 200px;}
   
-@media screen and (max-width: 800px) {.project-tile {display: grid; grid-template-column: repeat(auto-fill, minmax(300px, 700px)) }}
+@media screen and (max-width: 800px) {.project-tile {display: grid; 
+    grid-template-column: repeat(auto-fill, minmax(300px, 700px)); padding: 20px; }}
 
-@media screen and (max-width: 800px) {#box1, #box2, #box3, {width: 100%; justify-content: center; border: white;}}
+@media screen and (max-width: 800px) {#box1, #box2, #box3, {width: 400px; justify-content: center; border: white;}}
 
   @media screen and (max-width: 800px)
 {img{width:80%;}}
