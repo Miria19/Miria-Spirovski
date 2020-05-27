@@ -92,10 +92,16 @@ li {
     {display: grid; grid-template-column: repeat(auto-fill, minmax(300px, 700px)) }}
   
   @media screen and (max-width: 800px) 
-  {#box1, #box2, #box3, {width: 100%; justify-content: center; border: white;}}
+  {#box1, #box2, #box3, {width: 80%; justify-content: center; border: white;}}
 
   @media screen and (max-width: 800px)
-{img{width:100%;}}
+{img{width:80%;}}
+
+@media screen and (max-width: 800px)
+{#name-topright{display:none;}}
+
+@media screen and (max-width: 800px)
+{#nav{font-size:16px;}}
 
 #about, #projects, { 
     margin-top:70px;
