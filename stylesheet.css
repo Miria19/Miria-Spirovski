@@ -101,7 +101,7 @@ li {
 {#name-topright{display:none;}}
 
 @media screen and (max-width: 800px)
-{nav{display: block; position: fixed; top: 0; font-size: 20px; padding: 5px; width: 100%; place-items: center;}}
+{nav{display: block; position: fixed; top: 0; font-size: 22px; padding: 5px; width: 100%; place-items: center;}}
 
 @media screen and (max-width: 800px)
 {nav a{padding: 13px;}}
