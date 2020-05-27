@@ -101,7 +101,11 @@ li {
 {#name-topright{display:none;}}
 
 @media screen and (max-width: 800px)
-{nav{font-size:16px;}}
+{nav{display: block; position: fixed; top: 0; font-size: 14px; background-color: white; padding: 5px;}}
+
+@media screen and (max-width: 800px)
+{nav a{padding: 9px;}}
+  
 
 #about, #projects, { 
     margin-top:70px;
