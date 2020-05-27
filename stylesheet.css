@@ -82,6 +82,7 @@ li {
     margin: 10px;
     font-size: 22px;
     margin-bottom: 40px;
+      box-sizing: border-box;
   }
 
   #footericons {font-size: 28px;
