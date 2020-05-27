@@ -93,7 +93,7 @@ li {
 @media screen and (max-width: 800px) {.project-tile {display: grid; 
     grid-template-column: repeat(auto-fill, minmax(300px, 700px)); }}
 
-@media screen and (max-width: 800px) {#box1, #box2, #box3, {width: 400px; display: center; }}
+@media screen and (max-width: 800px) {#box1, #box2, #box3, {width: 120px; display: block; }}
 
   @media screen and (max-width: 800px)
 {img{width:80%;}}
