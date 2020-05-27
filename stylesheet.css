@@ -73,7 +73,7 @@ li {
   
   #box1, #box2, #box3 {
     background-color: white;
-    border: 12px solid rgba(226,75,226,0.5);
+    border: 8px solid rgba(226,75,226,0.5);
     height: 400px;
     width: 460px;
     display: grid;
