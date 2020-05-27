@@ -1,226 +1,75 @@
 <!DOCTYPE html>
 <html>
+    <head>
 <title>Miria</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel|Raleway|Pacifico&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
 
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Abel", serif;}
-body, html {
-    height: 100%;
-    color: #777;
-    line-height: 1.8;
-    font-size: 25px;
-}
-.mySlides { display: block;
-  margin-left: auto;
-  margin-right: auto;}
-
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-    background-image: url("mk2.jpg");
-    min-height: 100%;
-}
-
-/* Second image (About) */
-.bgimg-2 {
-    background-image: url("/w3images/parallax2.jpg");
-    min-height: 375px;
-}
-
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-        background-attachment: scroll;
-    }
-}
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 000px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.footer {
-  padding: 10px;
-  text-align: center;
-
-  background: url("mk2.jpg");
-  min-height: 80px;
-  
-
-</style>
 <body>
-
-
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" 
-    href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-
-    
-  
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"> ABOUT</a>
+    <img id="background-image" src="mk2.jpg" alt="Miria">
+    <h2 id="name-topright">Miria</h2>
    
-  <a href="#gallery" class="w3-bar-item w3-button w3-hide-small"> GALLERY</a>
-  
+    <nav id="navbar">
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
 
-    <a href="#home" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-none" 
-    style="font-size: 40px; font-family: 'Pacifico', cursive;"> Miria
-    </a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-   
-  <a href="#gallery" class="w3-bar-item w3-button" onclick="toggleFunction()">GALLERY</a>
-
-    
-  </div>
-</div>
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-
-
-</div>
-
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-
-    <h2 class="w3-center" style="font-family: 'Pacifico', cursive;">About Me</h2>
-    <p class="w3-center">I am....</p>
-  
-  <p class="w3-center" style="font-size: 20px;">| Australian born | From Melbourne | Cook Island/New Zealand descent | IT Savvy | Mama to 2 | Christian | 
-    <hr><p class="w3-center">I LOVE.... <li class="w3-center">GOD</li><li class="w3-center">My children</li><li class="w3-center">
-      Family and friends</li> 
-     <li class="w3-center" >Food</li> <li class="w3-center" >Music</li> 
-     <li class="w3-center">Fitness</li><li class="w3-center">Basketball</li><li class="w3-center">NRL</li></p>
-     <hr>
-        
-
-         <p class="w3-center"> Over the years I've learnt alot within the digital field. I never came from a tech 
-           background and I currently practice and 
-           learn web development learning online. 
-        </p>
-     </div>
+    <section id="about"><header><h1>About me</h1></header>
+    <p>| Australian born | From Dandenong North, Melbourne | Cook Island/New Zealand descent | IT Savvy | Mama to 2 | Christian | Learning Front End Web development |</p>
+    <br>
+    <p>I LOVE ....
+    <ul><li>God</li>
+      <li>My children</li>
+      <li>Family and friends</li>
+    <li>Food</li>
+    <li>Music</li>
+    <li>Fitness</li>
+    <li>Basketball</li>
+    <li>NRL</li>
+    <li>Sport</li>
+      <li>Coding</li></ul></p></section>
+<hr>
 
 
+      <section id="projects"><header><h1>Projects</h1></header>
+        <div class="project-tile">
+          
+          <div id=box1><a id="boxlinks" href="https://miria19.github.io/kobe/" target="_blank"><h3>Tribute Page</h3></a>
+            <a href="https://miria19.github.io/kobe/" target="_blank"><img src="https://i.postimg.cc/02qpYqpz/kobe.jpg"></a></div>
+          
+          <div id=box2><a id="boxlinks" href="https://miria19.github.io/survey/" target="_blank"><h3>Survey</h3></a>
+            <a href="https://miria19.github.io/survey/" target="_blank"><img src="https://i.postimg.cc/rmZggZND/survey.jpg"></a></div>
+          
+          <div id=box3><a id="boxlinks" href="https://miria19.github.io/product-landing-page/" target="_blank"><h3>Landing Page</h3></a>
+            <a href="https://miria19.github.io/product-landing-page/" target="_blank"><img src="https://i.postimg.cc/kghpT4MJ/product.jpg"></a></div>
+        </div>
+            
+    </section>
+      
+    <section id="contact"><header><h1 id="contact-header">Contact</h1></header>
+     <div> <a id="footericons" href="https://github.com/Miria19" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a><a id="footericons" href="https://twitter.com/MiriaSpirovski" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+       <a id="footericons" href="https://www.freecodecamp.org/miria" target="_blank"> <i class="fa fa-free-code-camp w3-hover-opacity"></i></a>
+      </div> 
+      </section>
 
-<!-- Second Parallax Image with Gallery -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">GALLERY</span>
-  </div>
-</div>
-
-<!-- Container (Gallery Section) -->
-<div class="w3-content w3-container w3-padding-64" id="gallery">
-  <h2 class="w3-center" style="font-family: 'Pacifico', cursive;">Gallery</h2>
-  <br>
-  <div class="w3-content w3-display-container ">
-  <img class="mySlides" src="mk2.jpg" style="width:600px; height:350px;">
-  <img class="mySlides" src="siarrah.JPG" style="width:375px; height:500px;">
-  <img class="mySlides" src="dusan.JPG" style="width:375px; height:500px">
-  <img class="mySlides" src="sd.JPG" style="width:375px; height:500px">
-  <img class="mySlides" src="ds.JPG" style="width:375px; height:500px">
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-    
-<!-- Footer -->
-<div class="footer">
-  
-    <a href="https://www.googleplus.com/MiriaSpirovski" target="_blank"><i class="fa fa-google-plus w3-hover-opacity"></i></a>
-   <a href="https://snapchat.com/miriaspirovski" target="_blank"> <i class="fa fa-snapchat w3-hover-opacity"></i></a>
-   <a href="https://twitter.com/MiriaSpirovski" target="_blank"> <i class="fa fa-twitter w3-hover-opacity"></i></a>
-
-  <h3 style=color:#777;> Website by Miria</h3> 
-<span id="date"></span>
-  <script>  var d = new Date();
-    document.getElementById("date").innerHTML = d.getFullYear();</script>
-</div> 
-
-
+      <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
 </body>
+
 </html>
