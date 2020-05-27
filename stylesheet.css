@@ -91,7 +91,8 @@ li {
   @media screen and (max-width: 800px) {.project-tile 
     {display: grid; grid-template-column: repeat(auto-fill, minmax(300px, 700px)) }}
   
-  
+ @media screen and (max-width: 800px) 
+  {#box1, #box2, #box3, {display: block; width: 200px; justify-content: center; border: none;}} 
 
   @media screen and (max-width: 800px)
 {img{width:80%;}}
