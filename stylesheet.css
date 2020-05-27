@@ -92,7 +92,7 @@ li {
     {display: grid; grid-template-column: repeat(auto-fill, minmax(300px, 700px)) }}
   
  @media screen and (max-width: 800px) 
-  {#box1, #box2, #box3, {display: grid; width: 40%; justify-content: center; border: none;}} 
+  {#box1, #box2, #box3, {display: grid; width: 40%; justify-content: center; box-sizing: border-box; margin: 6px;}} 
 
   @media screen and (max-width: 800px)
 {img{width:80%;}}
