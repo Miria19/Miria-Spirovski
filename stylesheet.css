@@ -103,7 +103,7 @@ li {
 {nav{display: block; position: fixed; top: 0; font-size: 20px; padding: 5px; width: 100%; place-items: center;}}
 
 @media screen and (max-width: 800px)
-{nav a{padding: 9px;}}
+{nav a{padding: 13px;}}
   
 
 #about, #projects, { 
